@@ -9,6 +9,8 @@ class Aluno extends Model
 {
     use HasFactory;
 
+    protected $table = 'aluno';
+
     protected $fillable = [
         'matricula',
         'id_pessoa',
@@ -16,6 +18,6 @@ class Aluno extends Model
     ];
 
     public function pessoa(){
-        return $this->hasOne(Pessoa::class);
+        return $this->hasOne(Pessoa::class, 'id', 'id_pessoa');
     }
 }

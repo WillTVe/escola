@@ -71,3 +71,14 @@
 2024/10/23 23:03:11 [notice] 1#1: start worker process 30
 2024/10/23 23:03:11 [notice] 1#1: start worker process 31
 2024/10/23 23:03:11 [notice] 1#1: start worker process 32
+2024/10/24 00:18:55 [warn] 31#31: *4 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 192.168.65.1, server: , request: "GET /api/aluno HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:8080"
+2024/10/25 22:33:25 [notice] 1#1: using the "epoll" event method
+2024/10/25 22:33:25 [notice] 1#1: nginx/1.27.2
+2024/10/25 22:33:25 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/25 22:33:25 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2024/10/25 22:33:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/25 22:33:25 [notice] 1#1: start worker processes
+2024/10/25 22:33:25 [notice] 1#1: start worker process 28
+2024/10/25 22:33:25 [notice] 1#1: start worker process 29
+2024/10/25 22:33:25 [notice] 1#1: start worker process 30
+2024/10/25 22:33:25 [notice] 1#1: start worker process 31

@@ -9,6 +9,8 @@ class Pessoa extends Model
 {
     use HasFactory;
 
+    protected $table = 'pessoa';
+
     protected $fillable = [
         'nome',
         'cpf_cnpj',
