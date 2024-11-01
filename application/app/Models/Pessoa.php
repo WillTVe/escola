@@ -21,4 +21,8 @@ class Pessoa extends Model
     public function aluno() {
         return $this->belongsTo(Aluno::class);
     }
+
+    public function professor(){
+        return $this->belongsTo(Professor::class);
+    }
 }

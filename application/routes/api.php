@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AlunoController;
+use App\Http\Controllers\ProfessorController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -21,3 +22,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::get('/aluno', [AlunoController::class, 'index']);
 Route::post('/aluno', [AlunoController::class, 'store']);
+Route::get('/professor', [ProfessorController::class, 'index']);

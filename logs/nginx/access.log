@@ -10,3 +10,7 @@
 192.168.65.1 - - [24/Oct/2024:00:42:56 +0000] "POST /api/aluno HTTP/1.1" 500 14739 "-" "Thunder Client (https://www.thunderclient.com)" "-"
 192.168.65.1 - - [24/Oct/2024:00:43:35 +0000] "POST /api/aluno HTTP/1.1" 500 14739 "-" "Thunder Client (https://www.thunderclient.com)" "-"
 192.168.65.1 - - [24/Oct/2024:00:44:10 +0000] "POST /api/aluno HTTP/1.1" 201 159 "-" "Thunder Client (https://www.thunderclient.com)" "-"
+192.168.65.1 - - [25/Oct/2024:23:01:48 +0000] "GET / HTTP/1.1" 200 17607 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" "-"
+192.168.65.1 - - [26/Oct/2024:00:14:56 +0000] "GET /api/professor HTTP/1.1" 500 11590 "-" "Thunder Client (https://www.thunderclient.com)" "-"
+192.168.65.1 - - [26/Oct/2024:00:15:49 +0000] "GET /api/professor HTTP/1.1" 500 13277 "-" "Thunder Client (https://www.thunderclient.com)" "-"
+192.168.65.1 - - [26/Oct/2024:00:18:30 +0000] "GET /api/professor HTTP/1.1" 200 21 "-" "Thunder Client (https://www.thunderclient.com)" "-"
