@@ -25,13 +25,13 @@ class ProfessorRequest extends FormRequest
     {
         return [
             'curriculo_lattes'  => 'string',
-            'id_pessoa' => 'required'
+            // 'id_pessoa' => 'required'
         ];
     }
 
     public function messages(){
         return [
-            'id_pessoa.required'    => 'O campo pessoa é obrigatório'
+            // 'id_pessoa.required'    => 'O campo pessoa é obrigatório'
         ];
     }
 }

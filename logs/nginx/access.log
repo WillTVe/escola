@@ -14,3 +14,6 @@
 192.168.65.1 - - [26/Oct/2024:00:14:56 +0000] "GET /api/professor HTTP/1.1" 500 11590 "-" "Thunder Client (https://www.thunderclient.com)" "-"
 192.168.65.1 - - [26/Oct/2024:00:15:49 +0000] "GET /api/professor HTTP/1.1" 500 13277 "-" "Thunder Client (https://www.thunderclient.com)" "-"
 192.168.65.1 - - [26/Oct/2024:00:18:30 +0000] "GET /api/professor HTTP/1.1" 200 21 "-" "Thunder Client (https://www.thunderclient.com)" "-"
+192.168.65.1 - - [02/Nov/2024:00:12:21 +0000] "POST /api/professor HTTP/1.1" 422 118 "-" "Thunder Client (https://www.thunderclient.com)" "-"
+192.168.65.1 - - [02/Nov/2024:00:14:17 +0000] "POST /api/professor HTTP/1.1" 500 15244 "-" "Thunder Client (https://www.thunderclient.com)" "-"
+192.168.65.1 - - [02/Nov/2024:00:21:34 +0000] "POST /api/professor HTTP/1.1" 201 52 "-" "Thunder Client (https://www.thunderclient.com)" "-"
