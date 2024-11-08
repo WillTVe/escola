@@ -113,3 +113,13 @@
 2024/11/02 00:26:13 [notice] 1#1: worker process 29 exited with code 0
 2024/11/02 00:26:13 [notice] 1#1: worker process 31 exited with code 0
 2024/11/02 00:26:13 [notice] 1#1: exit
+2024/11/06 23:02:36 [notice] 1#1: using the "epoll" event method
+2024/11/06 23:02:36 [notice] 1#1: nginx/1.27.2
+2024/11/06 23:02:36 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/11/06 23:02:36 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2024/11/06 23:02:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/11/06 23:02:36 [notice] 1#1: start worker processes
+2024/11/06 23:02:36 [notice] 1#1: start worker process 29
+2024/11/06 23:02:36 [notice] 1#1: start worker process 30
+2024/11/06 23:02:36 [notice] 1#1: start worker process 31
+2024/11/06 23:02:36 [notice] 1#1: start worker process 32

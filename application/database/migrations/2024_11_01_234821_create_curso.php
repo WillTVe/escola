@@ -22,10 +22,6 @@ class CreateCurso extends Migration
                 'Superior',
                 'Pos-Graduacao'
             ]);
-            $table->unsignedBigInteger('id_modalidade');
-            $table->unsignedBigInteger('id_tipo_regime');
-            $table->foreign('id_modalidade')->references('id')->on('modalidade_ensino');
-            $table->foreign('id_tipo_regime')->references('id')->on('tipo_regime');
             $table->timestamps();
         });
     }
