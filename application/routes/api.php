@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AlunoController;
 use App\Http\Controllers\ProfessorController;
+use App\Models\Professor;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -24,3 +25,6 @@ Route::get('/aluno', [AlunoController::class, 'index']);
 Route::post('/aluno', [AlunoController::class, 'store']);
 Route::get('/professor', [ProfessorController::class, 'index']);
 Route::post('/professor', [ProfessorController::class, 'store']);
+Route::put('/professor/{id}', [ProfessorController::class, 'update']);
+Route::get('/professor/{id}', [ProfessorController::class, 'find']);
+Route::delete('/professor/{id}', [ProfessorController::class, 'delete']);
