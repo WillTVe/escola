@@ -17,7 +17,7 @@ class ProfessorResource extends JsonResource
         return [
             'id'    => $this->id,
             'curriculo_lattes'  => $this->curriculo_lattes,
-            'pessoa'    => PessoaResource::collection(
+            'pessoa'    => new PessoaResource(
                 $this->whenLoaded('pessoa')
             )
         ];
