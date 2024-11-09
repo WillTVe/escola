@@ -208,3 +208,15 @@
 2024/11/09 00:38:06 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
 2024/11/09 00:38:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
 2024/11/09 00:38:06 [notice] 1#1: start worker processes
+2024/11/09 00:38:06 [notice] 1#1: start worker process 29
+2024/11/09 00:38:06 [notice] 1#1: start worker process 30
+2024/11/09 00:38:06 [notice] 1#1: start worker process 31
+2024/11/09 00:38:06 [notice] 1#1: start worker process 32
+2024/11/09 00:38:06 [notice] 1#1: start worker process 33
+2024/11/09 00:38:06 [notice] 1#1: start worker process 34
+2024/11/09 00:38:06 [notice] 1#1: start worker process 35
+2024/11/09 00:38:06 [notice] 1#1: start worker process 36
+2024/11/09 00:38:06 [notice] 1#1: start worker process 37
+2024/11/09 00:38:06 [notice] 1#1: start worker process 38
+2024/11/09 00:38:06 [notice] 1#1: start worker process 39
+2024/11/09 00:38:06 [notice] 1#1: start worker process 40
