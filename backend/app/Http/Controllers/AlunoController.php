@@ -10,6 +10,11 @@ use App\Http\Resources\AlunoResource;
 
 class AlunoController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth:sanctum');
+    }
+    
     public function index() {
         $aluno = Aluno::with('pessoa')->get();
         return AlunoResource::collection($aluno);
