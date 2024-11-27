@@ -52,3 +52,7 @@
 192.168.65.1 - - [14/Nov/2024:00:40:27 +0000] "GET /api/users/1 HTTP/1.1" 404 6628 "-" "Thunder Client (https://www.thunderclient.com)" "-"
 192.168.65.1 - - [14/Nov/2024:00:40:38 +0000] "GET /api/aluno HTTP/1.1" 500 582264 "-" "Thunder Client (https://www.thunderclient.com)" "-"
 192.168.65.1 - - [14/Nov/2024:00:42:40 +0000] "GET /api/aluno HTTP/1.1" 401 41 "-" "Thunder Client (https://www.thunderclient.com)" "-"
+192.168.65.1 - - [27/Nov/2024:22:55:59 +0000] "GET / HTTP/1.1" 404 555 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" "-"
+192.168.65.1 - - [27/Nov/2024:22:56:09 +0000] "GET /favicon.ico HTTP/1.1" 404 555 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" "-"
+192.168.65.1 - - [27/Nov/2024:22:56:10 +0000] "GET / HTTP/1.1" 404 555 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" "-"
+192.168.65.1 - - [27/Nov/2024:22:57:56 +0000] "GET /api/aluno HTTP/1.1" 404 153 "-" "Thunder Client (https://www.thunderclient.com)" "-"
